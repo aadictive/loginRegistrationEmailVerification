@@ -31,7 +31,7 @@ public class AppUserService implements UserDetailsService {
         appUserRepository.save(appUser);
 
         //Email Validation
-        
+
         return "Works!";
     }
 }
